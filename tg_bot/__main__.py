@@ -140,7 +140,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="💰 Join & Earn 💰", url="https://t.me/orionclubprogroup"),  InlineKeyboardButton(text="💰 Register & Earn 💰", url="https://orionclubs.com/#/register?r_code=3804")],
                      [InlineKeyboardButton(text="💰 Join For Updates 💰", url="https://t.me/orionclub3804Progress")],
-                     [InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                     [InlineKeyboardButton(text="👨🏻‍💻My Dev", url="https://t.me/Physic_hybrid)) ]]))
 
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
